@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS8600;CS8604;CS8602</NoWarn>
+  </PropertyGroup>
+	<ItemGroup>
+	  <None Include="..\.editorconfig" Link=".editorconfig" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SemanticKernel" Version="0.17.230626.1-preview" />
+		<PackageReference Include="Microsoft.SemanticKernel.Connectors.AI.OpenAI" Version="0.17.230626.1-preview" />
+		<PackageReference Include="Microsoft.SemanticKernel.Planning.ActionPlanner" Version="0.17.230626.1-preview" />
+		<PackageReference Include="Microsoft.SemanticKernel.Planning.SequentialPlanner" Version="0.17.230626.1-preview" />
+		<PackageReference Include="Microsoft.SemanticKernel.Skills.OpenAPI" Version="0.17.230626.1-preview" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="SemanticPlugins\EntityExtractorFunction\config.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="SemanticPlugins\EntityExtractorFunction\skprompt.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>

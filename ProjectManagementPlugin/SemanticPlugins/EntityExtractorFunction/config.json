@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "description": "Extracts entities from the context",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 1000,
+    "temperature": 0.25,
+    "top_p": 0.5,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "stop_sequences": ["Input", "Output"]
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "Example",
+        "description": "Few shot examples for the model",
+        "defaultValue": ""
+      },
+      {
+        "name": "Need",
+        "description": "Required variables to generate",
+        "defaultValue": ""
+      },
+      {
+        "name": "Input",
+        "description": "Input transcript from Chat",
+        "defaultValue": ""
+      }
+    ]
+  }
+}

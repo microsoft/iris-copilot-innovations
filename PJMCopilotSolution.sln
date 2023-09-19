@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManagementPlugin", "ProjectManagementPlugin\ProjectManagementPlugin.csproj", "{45CD8F90-B7A0-4FCA-B135-F58CA091CE95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PJMApp", "PJMApp\PJMApp.csproj", "{9D01277A-0CC7-496F-9FA8-CE4CAC132DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75E13ED3-124E-4ACF-A3DA-865AEAE0C569}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45CD8F90-B7A0-4FCA-B135-F58CA091CE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CD8F90-B7A0-4FCA-B135-F58CA091CE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CD8F90-B7A0-4FCA-B135-F58CA091CE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CD8F90-B7A0-4FCA-B135-F58CA091CE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D01277A-0CC7-496F-9FA8-CE4CAC132DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D01277A-0CC7-496F-9FA8-CE4CAC132DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D01277A-0CC7-496F-9FA8-CE4CAC132DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D01277A-0CC7-496F-9FA8-CE4CAC132DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F93D8D2-E065-42D0-8BB0-565919EBBDC8}
+	EndGlobalSection
+EndGlobal
